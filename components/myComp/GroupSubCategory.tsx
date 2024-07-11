@@ -23,6 +23,9 @@ const GroupSubCategory = (props: Props) => {
      {props.selectedGroup &&  <h1 className="text-2xl text-white text-center uppercase font-bold mb-4 ">
         Select your class
       </h1>}
+
+{/* Do not use names lie Classs  with triple S   it will be confusing  */}
+
       {groupSubCategories.map((classs: groupSubCategory) => (
         <div key={classs.id} className="flex gap-x-4 justify-center">
           {classs.subCategory?.map((subCategory) => (
