@@ -26,7 +26,7 @@ const GroupSubCategory = (props: Props) => {
       {groupSubCategories.map((classs: groupSubCategory) => (
         <div key={classs.id} className="flex gap-x-4 justify-center">
           {classs.subCategory?.map((subCategory) => (
-            <div>
+            <div key={subCategory}> 
               <Button
               onClick={() => {
                 // setSelectedClass(subCategory)
