@@ -20,7 +20,7 @@ const GroupSubCategory = (props: Props) => {
   
   return (
     <div className="mt-3">
-     {props.selectedGroup &&  <h1 className="text-2xl text-white text-center uppercase font-bold mb-4 ">
+     {props.selectedGroup &&  <h1 className="text-2xl text-white text-center uppercase font-bold mb-5 ">
         Select your class
       </h1>}
 
